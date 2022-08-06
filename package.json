@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/Zubayer94/data-analytics-dashboard-nodejs/issues"
   },
-  "homepage": "https://github.com/Zubayer94/data-analytics-dashboard-nodejs#readme"
+  "homepage": "https://github.com/Zubayer94/data-analytics-dashboard-nodejs#readme",
+  "dependencies": {
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.19",
+    "sequelize": "^6.21.3"
+  }
 }
