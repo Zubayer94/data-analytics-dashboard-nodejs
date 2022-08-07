@@ -19,7 +19,13 @@ module.exports = (sequelize, DataTypes) => {
     password: DataTypes.STRING
   }, {
     sequelize,
+    underscored: true,
     modelName: 'User',
+    defaultScope: {
+      attributes: {
+        exclude: ['password']
+      }
+    }
   });
   return User;
 };
